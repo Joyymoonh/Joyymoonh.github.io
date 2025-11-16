@@ -1,17 +1,16 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![Joyymoonh](https://img.shields.io/badge/Joyymoonh-github-blue?logo=github)](https://github.com/Joyymoonh)
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+I am a third-year undergraduate student at the **Department of Artificial Intelligence, School of Informatics, Xiamen University**.
 
 #### Contact
-
-Email: senli[at]fas.harvard.edu
-
-#### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+Email: jiangmo[at]stu.xmu.edu.cn
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+I’m currently working on 3D Vision and Multimodal Large Language Model, while delved into Embodied Intelligence and Lexical Semantic Change(NLP).
+
+#### Science Experience
+I have been working as a research assistant on the topic of 3D Vision at the Mac Lab (Key Laboratory of Multimedia Trusted Perception and Efficient Computing), Xiamen University for the past two years, under the supervision of Dr. Jiayi Ji and Prof. Rongrong Ji. Meanwhile, I have also worked on the topic of Lexical Semantic Change at the Mac Lab for one year, under the supervision of Prof. Fei Chao. 
+In addition, I am currently working as a main co-author with Ph.D. students at Peking University on the topic of Unified Multimodal Large Language Models.
 
