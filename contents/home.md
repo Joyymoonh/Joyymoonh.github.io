@@ -5,7 +5,7 @@
 I am a third-year undergraduate student at the **Department of Artificial Intelligence, School of Informatics, Xiamen University**.
 
 #### Contact
-Email: jiangmo[at]stu.xmu.edu.cn
+Email: jiangmo@stu.xmu.edu.cn
 
 #### Research Interests
 I’m currently working on 3D Vision and Multimodal Large Language Model, while delved into Embodied Intelligence and Lexical Semantic Change(NLP).
