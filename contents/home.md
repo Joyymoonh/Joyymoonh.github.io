@@ -6,7 +6,7 @@
       I am a third-year undergraduate student at the <strong>Department of Artificial Intelligence, School of Informatics, Xiamen University</strong>.
     </p>
     <p>
-      My current work centers on <strong>3D Vision</strong> and <strong>Multimodal Large Language Models</strong>, with broader interest in <strong>Embodied Intelligence</strong> and <strong>Lexical Semantic Change</strong>.
+      My main research interests are <strong>3D Vision</strong> and <strong>Embodied Intelligence</strong>, and I also work on <strong>Multimodal Large Language Models</strong> and <strong>Lexical Semantic Change</strong>.
     </p>
     <div class="contact-row">
       <a class="chip-link" href="mailto:jiangmo@stu.xmu.edu.cn">jiangmo@stu.xmu.edu.cn</a>
@@ -18,11 +18,12 @@
     <p class="section-tag">Research Focus</p>
     <div class="interest-cloud">
       <span>3D Vision</span>
-      <span>Multimodal LLM</span>
       <span>Embodied Intelligence</span>
+      <span>Multimodal LLM</span>
       <span>Visual Understanding</span>
+      <span>Embodied AI</span>
       <span>NLP</span>
-      <span>Unified Modeling</span>
+      <span>World Modeling</span>
     </div>
   </aside>
 
@@ -42,9 +43,9 @@
         </p>
       </div>
       <div class="experience-item">
-        <h3>Unified Multimodal Large Models</h3>
+        <h3>Multimodal Large Models</h3>
         <p>
-          Currently collaborating with Ph.D. students at Peking University as a main co-author on unified multimodal large language model research.
+          I am also collaborating with Ph.D. students at Peking University as a main co-author on multimodal large model research, especially around unified generation and understanding.
         </p>
       </div>
     </div>
