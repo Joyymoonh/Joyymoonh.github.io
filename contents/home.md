@@ -37,12 +37,6 @@
           Collaborating with Ph.D. students as a main co-author on multimodal large model research, especially around unified generation and understanding.
         </p>
       </div>
-      <div class="experience-item">
-        <h3>Lexical Semantic Change</h3>
-        <p>
-          Worked for one year on lexical semantic change under the supervision of Prof. Fei Chao, expanding from visual research into language-centered work.
-        </p>
-      </div>
     </div>
   </article>
 </div>
