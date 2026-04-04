@@ -233,6 +233,16 @@ section .main-body {
     gap: 1.5rem;
 }
 
+.home-grid-simple {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+}
+
 .content-card {
     padding: 1.8rem 1.9rem;
     border: 1px solid var(--h-border);
@@ -315,12 +325,15 @@ section .main-body {
     font-size: 1.45rem;
 }
 
+.project-card,
 .repo-card {
     background:
         linear-gradient(135deg, rgba(14, 36, 78, 0.96) 0%, rgba(25, 70, 139, 0.88) 100%);
     color: rgba(246, 250, 255, 0.9);
 }
 
+.project-card .section-tag,
+.project-card h3,
 .repo-card .section-tag,
 .repo-card h3 {
     color: #ffffff;
@@ -332,7 +345,7 @@ section .main-body {
     background: linear-gradient(135deg, #ffffff 0%, #dcecff 100%);
 }
 
-#publications-md h4 {
+#projects-md h4 {
     margin: 2rem 0 0.9rem;
     color: var(--h-title-color);
     font-size: 0.92rem;
@@ -341,7 +354,8 @@ section .main-body {
     text-transform: uppercase;
 }
 
-#publications-md > p,
+#projects-md > p,
+#projects-md li,
 #awards-md li {
     margin-bottom: 1rem;
     padding: 1.1rem 1.2rem;
@@ -374,7 +388,8 @@ footer a:focus {
 }
 
 @media screen and (max-width: 991px) {
-    .home-grid {
+    .home-grid,
+    .home-grid-simple {
         grid-template-columns: 1fr;
     }
 
