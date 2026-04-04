@@ -346,6 +346,7 @@ section .main-body {
     background: linear-gradient(135deg, #ffffff 0%, #dcecff 100%);
 }
 
+#publications-md h4,
 #projects-md h4 {
     margin: 2rem 0 0.9rem;
     color: var(--h-title-color);
@@ -355,7 +356,9 @@ section .main-body {
     text-transform: uppercase;
 }
 
+#publications-md > p,
 #projects-md > p,
+#publications-md li,
 #projects-md li,
 #awards-md li {
     margin-bottom: 1rem;

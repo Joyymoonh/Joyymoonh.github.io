@@ -8,14 +8,6 @@
     <p>
       My main research interests are <strong>3D Vision</strong> and <strong>Embodied Intelligence</strong>, and I also work on <strong>Multimodal Large Language Models</strong>.
     </p>
-    <div class="interest-cloud">
-      <span>3D Vision</span>
-      <span>Embodied Intelligence</span>
-      <span>Multimodal Large Models</span>
-      <span>Visual Understanding</span>
-      <span>World Modeling</span>
-      <span>Embodied AI</span>
-    </div>
     <div class="contact-row">
       <a class="chip-link" href="mailto:jiangmo@stu.xmu.edu.cn">jiangmo@stu.xmu.edu.cn</a>
       <a class="chip-link" href="https://github.com/Joyymoonh" target="_blank" rel="noopener noreferrer">GitHub</a>
