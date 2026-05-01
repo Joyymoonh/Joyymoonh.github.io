@@ -44,7 +44,7 @@
         <h3>College of AI, Tsinghua University</h3>
         <p class="experience-meta">Advised by Assistant Professor Yongchao Chen</p>
         <p>
-          Conducting research as an intern at Tsinghua University AI, with a focus on current topics in artificial intelligence.
+          Conducting research on world models as a research intern at the College of AI, Tsinghua University.
         </p>
       </div>
       <div class="experience-item">
