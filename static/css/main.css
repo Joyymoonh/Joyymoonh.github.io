@@ -262,6 +262,11 @@ section .main-body {
         linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(242, 248, 255, 0.9) 100%);
 }
 
+.intro-lead {
+    font-size: 1.08rem;
+    line-height: 1.95rem;
+}
+
 .section-tag {
     margin-bottom: 1rem;
     color: var(--h-accent);
@@ -306,11 +311,18 @@ section .main-body {
     box-shadow: inset 0 0 0 1px rgba(31, 111, 235, 0.08);
 }
 
-.experience-stack {
+.interest-grid,
+.experience-grid {
     display: grid;
     gap: 1rem;
 }
 
+.interest-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 1.15rem;
+}
+
+.interest-note,
 .experience-item {
     padding: 1rem 1.1rem;
     border-radius: 20px;
@@ -318,12 +330,67 @@ section .main-body {
     border: 1px solid rgba(23, 59, 122, 0.08);
 }
 
+.interest-note {
+    min-height: 100%;
+    background: linear-gradient(180deg, rgba(251, 253, 255, 0.96) 0%, rgba(237, 245, 255, 0.92) 100%);
+}
+
+.interest-note h3,
 .experience-item h3,
 .repo-card h3 {
     margin-bottom: 0.45rem;
     color: var(--h-title-color);
     font-family: "Newsreader", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 1.45rem;
+}
+
+.interest-note p,
+.experience-item p {
+    margin-bottom: 0;
+}
+
+.experience-overview {
+    margin-bottom: 1.1rem;
+    color: var(--h-muted-color);
+}
+
+.experience-grid {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.experience-item {
+    position: relative;
+    overflow: hidden;
+    padding: 1.15rem 1.2rem;
+    background: linear-gradient(135deg, rgba(251, 253, 255, 0.98) 0%, rgba(238, 245, 255, 0.92) 100%);
+    box-shadow: 0 12px 26px rgba(16, 36, 72, 0.06);
+}
+
+.experience-item::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 4px;
+    background: linear-gradient(180deg, var(--h-accent) 0%, var(--h-highlight) 100%);
+}
+
+.experience-role,
+.experience-meta {
+    font-size: 0.88rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.experience-role {
+    margin-bottom: 0.45rem;
+    color: var(--h-accent);
+    font-weight: 800;
+}
+
+.experience-meta {
+    margin-bottom: 0.7rem;
+    color: var(--h-muted-color);
+    font-weight: 700;
 }
 
 .project-card,
@@ -394,6 +461,10 @@ footer a:focus {
 @media screen and (max-width: 991px) {
     .home-grid,
     .home-grid-simple {
+        grid-template-columns: 1fr;
+    }
+
+    .interest-grid {
         grid-template-columns: 1fr;
     }
 
