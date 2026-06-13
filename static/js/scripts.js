@@ -2,7 +2,7 @@
 
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'publications', 'projects', 'awards']
+const section_names = ['home', 'news', 'publications', 'experience', 'projects', 'awards']
 
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', event => {
     );
     responsiveNavItems.map(function (responsiveNavItem) {
         responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
+            if (navbarToggler && window.getComputedStyle(navbarToggler).display !== 'none') {
                 navbarToggler.click();
             }
         });
@@ -56,10 +56,29 @@ window.addEventListener('DOMContentLoaded', event => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
             }).then(() => {
-                // MathJax
-                MathJax.typeset();
+                setupPublicationFilter();
             })
             .catch(error => console.log(error));
     })
 
 }); 
+
+function setupPublicationFilter() {
+    const buttons = document.querySelectorAll('.pub-button');
+    const cards = document.querySelectorAll('.publication-card');
+    if (!buttons.length || !cards.length) return;
+
+    buttons.forEach(button => {
+        if (button.dataset.bound === 'true') return;
+        button.dataset.bound = 'true';
+        button.addEventListener('click', () => {
+            buttons.forEach(item => item.classList.remove('active'));
+            button.classList.add('active');
+            const filter = button.dataset.filter;
+            cards.forEach(card => {
+                const selected = card.dataset.selected === 'true';
+                card.style.display = filter === 'selected' && !selected ? 'none' : 'flex';
+            });
+        });
+    });
+}
