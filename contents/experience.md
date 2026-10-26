@@ -6,18 +6,7 @@
       College of Artificial Intelligence, Tsinghua University<br>
       <span class="experience-time">Mar 2026 – Present</span><br>
       Advisor: Prof. Yongchao Chen<br>
-      <span class="experience-desc">Executable world representations, inverse dynamics, and reinforcement learning post-training for robot manipulation.</span>
-    </div>
-  </div>
-
-  <div class="experience-card">
-    <!-- Logo is hot-linked from the lab's official GitHub organization avatar. To host it yourself, save it as static/assets/img/visionxlab-logo.png and change the src below. -->
-    <img src="https://avatars.githubusercontent.com/u/197604328?s=120&v=4" alt="VisionXLab logo" class="experience-logo" loading="lazy">
-    <div class="experience-info">
-      <strong>Research Intern, VisionXLab</strong><br>
-      Shanghai Jiao Tong University<br>
-      <span class="experience-time">Apr 2026 – Present</span><br>
-      Advisor: Prof. Xue Yang
+      <span class="experience-desc">Research direction: Embodied AI</span>
     </div>
   </div>
 
@@ -28,7 +17,7 @@
       Xiamen University<br>
       <span class="experience-time">Jun 2024 – Present</span><br>
       Advisors: Prof. Rongrong Ji, Assoc. Prof. Jiayi Ji<br>
-      <span class="experience-desc">3D referring expression segmentation and tracking in point clouds and aerial-ground scenes.</span>
+      <span class="experience-desc">Research direction: 3D Vision</span>
     </div>
   </div>
 </div>
