@@ -11,6 +11,18 @@
   </div>
 
   <div class="experience-card">
+    <!-- Logo is hot-linked from the lab's official GitHub organization avatar. To host it yourself, save it as static/assets/img/visionxlab-logo.png and change the src below. -->
+    <img src="https://avatars.githubusercontent.com/u/197604328?s=120&v=4" alt="VisionXLab logo" class="experience-logo" loading="lazy">
+    <div class="experience-info">
+      <strong>Research Intern, VisionXLab</strong><br>
+      Shanghai Jiao Tong University<br>
+      <span class="experience-time">Apr 2026 – Present</span><br>
+      Advisor: Prof. Xue Yang<br>
+      <span class="experience-desc">Research direction: Multimodal Learning</span>
+    </div>
+  </div>
+
+  <div class="experience-card">
     <img src="static/assets/img/xmu-logo.jpg" alt="Xiamen University logo" class="experience-logo">
     <div class="experience-info">
       <strong>Research Assistant, MAC Lab</strong><br>

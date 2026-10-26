@@ -10,6 +10,7 @@ The site is static: Markdown files in `contents/` are parsed in the browser on l
 | --- | --- |
 | `contents/home.md` | About |
 | `contents/news.md` | News |
+| `contents/publications.md` | Publications |
 | `contents/experience.md` | Research experience |
 | `contents/awards.md` | Honors & awards |
 | `contents/config.yml` | Page title and footer text |
