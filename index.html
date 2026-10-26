@@ -4,14 +4,15 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Mohan Zhang's academic homepage" />
+    <meta name="description" content="Mohan Zhang (张墨涵) - Undergraduate researcher at Xiamen University working on 3D vision-language understanding, embodied AI, and world models." />
     <meta name="author" content="Mohan Zhang" />
     <title id="title">Mohan Zhang | Homepage</title>
 
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
@@ -28,9 +29,7 @@
         <div class="site-links" id="navbarResponsive">
             <a class="nav-link" href="#home">About</a>
             <a class="nav-link" href="#news">News</a>
-            <a class="nav-link" href="#publications">Publications</a>
-            <a class="nav-link" href="#experience">Experience</a>
-            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#experience">Research Experience</a>
             <a class="nav-link" href="#awards">Awards</a>
         </div>
     </nav>
@@ -38,32 +37,28 @@
     <main class="page-shell">
         <aside class="profile-sidebar">
             <div class="profile-card">
-                <img class="profile-photo" src="static/assets/img/photo.png" alt="Mohan Zhang portrait" />
+                <img class="profile-photo" src="static/assets/img/photo.png" alt="Portrait of Mohan Zhang" />
                 <h1>Mohan Zhang</h1>
                 <p class="name-cn">张墨涵</p>
-                <p class="profile-role">Undergraduate Researcher<br />Department of Artificial Intelligence<br />Xiamen University</p>
-
-                <div class="profile-tags" aria-label="Research interests">
-                    <span>3D Vision-Language</span>
-                    <span>Embodied AI</span>
-                    <span>World Models</span>
-                    <span>Multimodal Agents</span>
-                </div>
+                <p class="profile-role">
+                    Undergraduate Researcher<br />
+                    Department of Artificial Intelligence<br />
+                    Xiamen University
+                </p>
 
                 <div class="profile-links">
-                    <a href="mailto:jiangmo@stu.xmu.edu.cn"><i class="bi bi-envelope-fill"></i> Email</a>
+                    <a href="mailto:jiangmo@stu.xmu.edu.cn"><i class="bi bi-envelope-fill"></i> jiangmo@stu.xmu.edu.cn</a>
                     <a href="https://github.com/Joyymoonh" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a>
-                    <a href="https://joyymoonh.github.io/" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i> Homepage</a>
                 </div>
 
                 <dl class="profile-facts">
                     <div>
-                        <dt>GPA / Rank</dt>
-                        <dd>3.74 / 4.0 · 10 / 98</dd>
+                        <dt>Research Interests</dt>
+                        <dd>3D Vision-Language, Embodied AI, World Models, Multimodal Agents</dd>
                     </div>
                     <div>
-                        <dt>Affiliations</dt>
-                        <dd>XMU MAC Lab · Tsinghua Robotics</dd>
+                        <dt>Labs</dt>
+                        <dd>MAC Lab, Xiamen University<br />College of AI, Tsinghua University<br />VisionXLab, Shanghai Jiao Tong University</dd>
                     </div>
                 </dl>
             </div>
@@ -71,9 +66,9 @@
 
         <div class="content-column">
             <section class="content-section intro-section" id="home">
-                <p id="hero-kicker" class="section-kicker"></p>
-                <h2 class="main-heading">Hi there <span class="wave">~</span> Welcome to my Homepage!</h2>
-                <p id="hero-summary" class="hero-summary"></p>
+                <header class="section-header">
+                    <h2>About</h2>
+                </header>
                 <div class="main-body" id="home-md"></div>
             </section>
 
@@ -84,17 +79,6 @@
                 <div class="main-body" id="news-md"></div>
             </section>
 
-            <section class="content-section" id="publications">
-                <header class="section-header">
-                    <h2>Publications</h2>
-                </header>
-                <div class="pub-button-container" aria-label="Publication filter">
-                    <button class="pub-button active" type="button" data-filter="all">All Publications</button>
-                    <button class="pub-button" type="button" data-filter="selected">Selected Only</button>
-                </div>
-                <div class="main-body" id="publications-md"></div>
-            </section>
-
             <section class="content-section" id="experience">
                 <header class="section-header">
                     <h2>Research Experience</h2>
@@ -102,22 +86,16 @@
                 <div class="main-body" id="experience-md"></div>
             </section>
 
-            <section class="content-section" id="projects">
-                <header class="section-header">
-                    <h2>Selected Projects</h2>
-                </header>
-                <div class="main-body" id="projects-md"></div>
-            </section>
-
             <section class="content-section" id="awards">
                 <header class="section-header">
-                    <h2>Awards</h2>
+                    <h2>Honors &amp; Awards</h2>
                 </header>
                 <div class="main-body" id="awards-md"></div>
             </section>
 
             <footer class="site-footer">
                 <span id="copyright-text">&copy; Mohan Zhang 2023-2027. All Rights Reserved.</span>
+                <span class="footer-credit">Built on the open-source <a href="https://github.com/senli1073/senli1073.github.io" target="_blank" rel="noopener noreferrer">academic homepage template</a> (MIT).</span>
             </footer>
         </div>
     </main>

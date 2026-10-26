@@ -1,8 +1,6 @@
-I am a third-year undergraduate student in **Artificial Intelligence** at **Xiamen University**, currently ranked **10/98** with a GPA of **3.74/4.0**. I work with Prof. Rongrong Ji and Assoc. Prof. Jiayi Ji at the **Media Analytics and Computing Laboratory (MAC Lab)**.
+I am an undergraduate student in **Artificial Intelligence** at **Xiamen University**. I am a research assistant at the **Media Analytics and Computing Laboratory (MAC Lab)**, advised by Prof. Rongrong Ji and Assoc. Prof. Jiayi Ji. I have also done research internships at the **College of Artificial Intelligence, Tsinghua University** with Prof. Yongchao Chen, and at **VisionXLab, Shanghai Jiao Tong University** with Prof. Xue Yang.
 
-My research focuses on **3D vision-language understanding**, **embodied AI**, and **world models**. I am interested in how agents can perceive object-centric 3D structure, reason about spatial and semantic relations, and connect visual understanding to executable actions in physical environments.
-
-Recently, I have also been a research intern in Prof. Yongchao Chen's robotics group at **Tsinghua University**, exploring executable world representations, inverse dynamics, and reinforcement learning post-training for robot manipulation.
+My research aims to build agents that understand and act in the 3D physical world. I am particularly interested in how object-centric 3D structure, spatial and semantic relations, and language goals can be connected to executable actions, through **3D vision-language understanding**, **embodied world models**, and **multimodal agents**.
 
 <div class="research-focus">
   <article>
