@@ -30,7 +30,7 @@ I am interested in **embodied intelligence**, **world models**, and **agentic ro
 
 ## Research Experience
 
-- **Research Intern**, College of Artificial Intelligence, Tsinghua University, Mar 2026 – Present. Advisor: Prof. Yongchao Chen. Research direction: Embodied AI.
+- **Research Intern**, College of Artificial Intelligence, Tsinghua University, Mar 2026 – Jun 2026. Advisor: Prof. Yongchao Chen. Research direction: Embodied AI.
 - **Research Intern**, VisionXLab, Shanghai Jiao Tong University, Apr 2026 – Present. Advisor: Prof. Xue Yang. Research direction: Multimodal Learning.
 - **Research Assistant**, MAC Lab, Xiamen University, Jun 2024 – Present. Advisors: Prof. Rongrong Ji, Assoc. Prof. Jiayi Ji. Research direction: 3D Vision.
 
