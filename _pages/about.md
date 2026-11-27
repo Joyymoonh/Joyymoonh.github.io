@@ -26,7 +26,7 @@ latest_posts:
 
 I am Mohan Zhang (张墨涵). I will soon join **FudanCVL** at **Fudan University** as a graduate student, advised by **Prof. Henghui Ding**. I am currently completing my undergraduate studies in **Artificial Intelligence** at **Xiamen University**.
 
-I am interested in **embodied intelligence**, **world models**, **agentic robotics**, and **robot-use agents**.
+I am interested in **embodied intelligence**, **world models**, and **robot-use agents**.
 
 ## Research Experience
 
