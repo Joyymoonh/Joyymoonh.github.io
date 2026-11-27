@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <i>DisciplineGen-1M</i>, on multidisciplinary visual generation and editing, is on arXiv and under review at <b>ICLR 2027</b>.
+Our paper <i>DisciplineGen-1M</i>, on multidisciplinary visual generation and editing, is now on <b>arXiv</b>.
